@@ -46,4 +46,13 @@ public class TryingMethods {
             System.out.println("You are not serious with academics go to madina market.");
         }
     }
+    public static int sumNumbersLessThan() {
+        int sum = 0;
+        int check = 1;
+        while (check < 1000) {
+            sum += 1;
+            check++;
+        }
+        return sum;
+    }
 }
