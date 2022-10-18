@@ -1,7 +1,24 @@
-
 public class TryingMethods {
     // This class allows for the testing of various methods.
     // acess modifier method type return type method name
+    public static void main(String[] args) {
+        System.out.println(sumNumbersLessThan());
+        System.out.println(sumEven());
+
+        TryingMethods tryingMethod = new TryingMethods();
+        for (int j = 1; j<8; j++) {
+            System.out.println(tryingMethod.dayOfWeek(j));
+        }
+        
+
+        tryingMethod.examResult(90);
+        tryingMethod.examResult(80);
+        tryingMethod.examResult(70);
+        tryingMethod.examResult(60);
+
+        
+    }
+
     public String dayOfWeek(int day) {
         
         String dayofweek = "";
@@ -52,7 +69,7 @@ public class TryingMethods {
         int sum = 0;
         int check = 1;
         while (check < 1000) {
-            sum += 1;
+            sum += check;
             check++;
         }
         return sum;
